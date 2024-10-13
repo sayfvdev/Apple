@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.cobtainer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Apple {
+    display: flex;
+    justify-content: center;
+}
+
+.apple_header {
+    align-items: center;
+    gap: 35px;
+    justify-content: center;
+    display: flex;
+    padding: 15px 0 15px 0;
+}
+
+.apple_header a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn_header {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+
+
+.carrier {
+    justify-content: center;
+    padding: 15px 15px 15px 15px;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+}
+
+.carrier img {
+    float: left;
+}
+
+.deals a {
+    color: blue;
+    text-decoration: none;
+}
+
+.item1 {
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.new_iphone {
+    display: flex;
+}
+
+.new {
+    padding-top: 50px;
+}
+
+.new h4 {
+    color: orange;
+    font-size: 20px;
+}
+
+.new h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.new p {
+    padding-bottom: 60px;
+}
+
+#scroll {
+    position: sticky;
+    top: 0;
+    width: 900px;
+    /* height: 549px; */
+}
+
+.model {
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+
+.model span {
+    color: grey;
+}
+
+.get {
+    float: right;
+    border-radius: 20px;
+    padding: 15px 15px 15px 15px;
+    border: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.get:hover {
+    border: 1px solid black;
+}
+
+#btn {
+    margin-bottom: 150px;
+}
+
+.ip_pro {
+    border-radius: 10px;
+    border: 1px solid rgba(118, 114, 114, 0.706);
+    margin-top: 30px;
+    padding: 15px 15px 0px 15px;
+    cursor: pointer;
+}
+
+.ip_pro:hover {
+    border: 1px solid blue;
+    transition: 0.5 s ease;
+}
+
+.ip_pro p {
+    padding-top: 5px;
+    color: gray;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.ip_pro img {
+    margin-right: 5px;
+    width: 20px;
+    float: left;
+}
+
+.help {
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 270px;
+    margin-bottom: 70px;
+}
+
+.finish span {
+    color: grey;
+}
+
+.finish {
+    padding-bottom: 50px;
+}
+
+.img {
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url('./img/Pro_Max.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+}
+
+.color_btn {
+    border-radius: 50%;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    /* padding: 20px 30px; */
+    margin-bottom: 500px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.color_btn img {
+    width: 28px;
+    height: 28px;
+}
